@@ -27,6 +27,7 @@ llm = ChatGoogleGenerativeAI(model="gemini-pro", google_api_key=GOOGLE_API_KEY,)
 
 app = FastAPI()
 
+
 portfolioObj = PortfolioManager()
 memmory = ConversationBufferMemory()
 
